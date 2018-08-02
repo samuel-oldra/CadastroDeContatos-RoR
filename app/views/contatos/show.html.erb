@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @contato.nome %>
+</p>
+
+<p>
+  <strong>Idade:</strong>
+  <%= @contato.idade %>
+</p>
+
+<p>
+  <strong>Altura:</strong>
+  <%= @contato.altura %>
+</p>
+
+<p>
+  <strong>Data inclusao:</strong>
+  <%= @contato.data_inclusao %>
+</p>
+
+<%= link_to 'Edit', edit_contato_path(@contato) %> |
+<%= link_to 'Back', contatos_path %>

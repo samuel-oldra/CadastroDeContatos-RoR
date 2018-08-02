@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  idade: 1
+  altura: 1.5
+  data_inclusao: 2018-03-21
+
+two:
+  nome: MyString
+  idade: 1
+  altura: 1.5
+  data_inclusao: 2018-03-21
