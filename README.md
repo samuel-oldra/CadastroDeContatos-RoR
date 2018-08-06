@@ -44,3 +44,8 @@ rails generate scaffold Contato nome:string idade:integer altura:float data_incl
 ```
 rake db:migrate
 ```
+
+### Executar projeto
+```
+rails server
+```
